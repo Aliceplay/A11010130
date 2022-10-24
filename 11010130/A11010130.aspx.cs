@@ -18,6 +18,7 @@ namespace _11010130
         {
             //基本功能
             Label1.Text = TextBox1.Text;
+            //lllllll
         }
     }
 }
