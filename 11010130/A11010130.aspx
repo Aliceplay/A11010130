@@ -14,8 +14,11 @@
         <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
         <br />
         <div>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Button" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="開始" />
+&nbsp;
+            <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="加字" />
+&nbsp;
+            <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="清除" />
         </div>
     </form>
 </body>

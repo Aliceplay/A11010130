@@ -18,13 +18,17 @@ namespace _11010130
         {
             //基本功能
             Label1.Text = TextBox1.Text;
-            //lllllll
         }
 
         protected void Button2_Click(object sender, EventArgs e)
         {
             //clear text
             Label1.Text = "";
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            Label1.Text += "是我要的字";
         }
     }
 }
