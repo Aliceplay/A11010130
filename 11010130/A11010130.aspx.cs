@@ -20,5 +20,11 @@ namespace _11010130
             Label1.Text = TextBox1.Text;
             //lllllll
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            //clear text
+            Label1.Text = "";
+        }
     }
 }
